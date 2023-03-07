@@ -12,3 +12,11 @@ class House:
         self.door = door
         self.window = window
         self.painting = painting
+
+class Animal:
+    def __init__(self, name,weight,age,production ):
+        self.name = name
+        self.weight = weight
+        self.age = age
+        self.production = production
+
